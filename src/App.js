@@ -1,11 +1,11 @@
 import Header from './components/Header'
-import MemeGenerator from './components/MemeGenerator'
+import MemesNew from './components/MemesNew'
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <MemeGenerator />
+      <MemesNew />
     </div>
   );
 }

@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from 'react'
 
-function MemeGenerator () {
+function MemesNew () {
   const [text, setText] = useState({topText: "", bottomText: ""})
   const [randomImg, setRandomImg] = useState("http://i.imgflip.com/1bij.jpg")
   const [allMemeImgs, setAllMemeImgs] = useState([])
@@ -55,4 +55,4 @@ function MemeGenerator () {
   )
 }
 
-export default MemeGenerator
+export default MemesNew
