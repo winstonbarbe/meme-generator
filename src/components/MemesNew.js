@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from 'react'
+import MemeDisplay from './MemeDisplay'
 
 function MemesNew () {
   const [text, setText] = useState({topText: "", bottomText: ""})
@@ -47,11 +48,7 @@ function MemesNew () {
         />
         <button type="submit">Gen</button>
       </form>
-      <div className="meme">
-        <h2 className="top">{text.topText}</h2>
-        <h2 className="bottom">{text.bottomText}</h2>
-        <img src={randomImg} alt=""/>
-      </div>
+      <MemeDisplay data={{topText: text.topText, bottomText: text.bottomText, url: randomImg}} />
     </div>
     
   )

@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react"
+import MemeDisplay from "./MemeDisplay"
+
 function MemesIndex() {
   const [savedMemes, setSavedMemes] = useState([])
 
@@ -8,11 +10,7 @@ function MemesIndex() {
       .then(response => {
         setSavedMemes(response.data.map(meme => {
           return (
-            <div className="meme" key={meme.id}>
-              <h2 className="top">{meme.topText}</h2>
-              <h2 className="bottom">{meme.bottomText}</h2>
-              <img src={meme.url} alt=""/>
-            </div>
+            <MemeDisplay data={{topText: meme.topText, bottomText: meme.bottomText, url: meme.url}} key={meme.id}/>
           )
         }))
       })
