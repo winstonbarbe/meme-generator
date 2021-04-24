@@ -7,6 +7,7 @@ function MemesNew () {
   const [randomImg, setRandomImg] = useState("http://i.imgflip.com/1bij.jpg")
   const [allMemeImgs, setAllMemeImgs] = useState([])
   
+  
 
   useEffect(() => {
     fetch("https://api.imgflip.com/get_memes")
@@ -27,7 +28,6 @@ function MemesNew () {
     const randUrl = allMemeImgs[randNum].url
     setRandomImg(randUrl)
   }
-  
 
   return (
     <div>
