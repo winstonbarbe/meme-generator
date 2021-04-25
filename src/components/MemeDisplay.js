@@ -1,4 +1,7 @@
 function MemeDisplay (props) {
+  const memeStyle = {
+    
+  }
   return (
     <div className="meme">
       <h2 className="top">{props.data.topText}</h2>

@@ -4,61 +4,101 @@
       "id": "1",
       "topText": "I wanna know",
       "bottomText": "have you ever seen the pain",
-      "url": "https://i.imgflip.com/30b1gx.jpg"
+      "url": "https://i.imgflip.com/30b1gx.jpg",
+      "created_by": {
+        "email": "livingMemedGuy",
+        "id": "1"
+      }
     },
     {
       "id": "2",
       "topText": "I wanna know",
       "bottomText": "have you ever seen the pain",
-      "url": "https://i.imgflip.com/1ur9b0.jpg"
+      "url": "https://i.imgflip.com/1ur9b0.jpg",
+      "created_by": {
+        "email": "someoneElse",
+        "id": "2"
+      }
     },
     {
       "id": "3",
       "topText": "I wanna know",
       "bottomText": "have you ever seen the pain",
-      "url":  "https://i.imgflip.com/1g8my4.jpg"
+      "url":  "https://i.imgflip.com/1g8my4.jpg",
+      "created_by": {
+        "email": "totsForToys",
+        "id": "3"
+      }
     },
     {
       "id": "4",
       "topText": "I wanna know",
       "bottomText": "have you ever seen the pain",
-      "url": "https://i.imgflip.com/261o3j.jpg"
+      "url": "https://i.imgflip.com/261o3j.jpg",
+      "created_by": {
+        "email": "thisOneGuy",
+        "id": "4"
+      }
     },
     {
       "id": "5",
       "topText": "I wanna know",
       "bottomText": "have you ever seen the pain",
-      "url": "https://i.imgflip.com/24y43o.jpg"
+      "url": "https://i.imgflip.com/24y43o.jpg",
+      "created_by": {
+        "email": "livingMemedGuy",
+        "id": "1"
+      }
     },
     {
       "id": "6",
       "topText": "I wanna know",
       "bottomText": "have you ever seen the pain",
-      "url": "https://i.imgflip.com/43a45p.png"
+      "url": "https://i.imgflip.com/43a45p.png",
+      "created_by": {
+        "email": "livingMemedGuy",
+        "id": "1"
+      }
     },
     {
       "id": "7",
       "topText": "I wanna know",
       "bottomText": "have you ever seen the pain",
-      "url": "https://i.imgflip.com/22bdq6.jpg"
+      "url": "https://i.imgflip.com/22bdq6.jpg",
+      "created_by": {
+        "email": "thisOneGuy",
+        "id": "4"
+      }
     },
     {
       "id": "8",
       "topText": "I wanna know",
       "bottomText": "have you ever seen the pain",
-      "url": "https://i.imgflip.com/3lmzyx.jpg"
+      "url": "https://i.imgflip.com/3lmzyx.jpg",
+      "created_by": {
+        "email": "livingMemedGuy",
+        "id": "1"
+      }
     },
     {
       "id": "9",
       "topText": "I wanna know",
       "bottomText": "have you ever seen the pain",
-      "url": "https://i.imgflip.com/3oevdk.jpg"
+      "url": "https://i.imgflip.com/3oevdk.jpg",
+      "created_by": {
+        "email": "thisOneGuy",
+        "id": "4"
+      }
     },
     {
       "id": "10",
       "topText": "I wanna know",
       "bottomText": "have you ever seen the pain",
-      "url": "https://i.imgflip.com/1otk96.jpg"
+      "url": "https://i.imgflip.com/1otk96.jpg",
+      "created_by": {
+        "email": "livingMemedGuy",
+        "id": "1"
+      }
     }
   ]
 }
