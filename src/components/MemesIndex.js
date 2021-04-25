@@ -10,7 +10,7 @@ function MemesIndex() {
       .then(response => {
         setSavedMemes(response.data.map(meme => {
           return (
-            <MemeDisplay data={{topText: meme.topText, bottomText: meme.bottomText, url: meme.url}} key={meme.id}/>
+            <MemeDisplay data={meme} key={meme.id}/>
           )
         }))
       })

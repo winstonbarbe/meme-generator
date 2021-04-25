@@ -38,7 +38,7 @@ header > p {
 
 .meme {
   position: relative;
-  width: 45%;
+
   margin: auto;
 }
 
@@ -122,4 +122,8 @@ header > p {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.big-meme {
+  width: 45%;
 }
