@@ -122,8 +122,14 @@ header > p {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: center;
 }
 
 .big-meme {
+  background-color: antiquewhite;
   width: 45%;
+  margin: 12px 0;
+  padding: 12px;
+  box-shadow: 0px 0px 20px #00000040;
+  border-radius: 2%;
 }

@@ -4,7 +4,7 @@ import {
 
 function MemeDisplay (props) {
   return (
-    <div className="big-meme">
+    <div className="big-meme" onClick={() => console.log("hello")}>
       <div className="meme">
         <h2 className="top">{props.data.topText}</h2>
         <h2 className="bottom">{props.data.bottomText}</h2>
