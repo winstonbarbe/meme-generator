@@ -30,7 +30,7 @@ function MemesNew () {
   }
 
   return (
-    <div>
+    <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
       <form onSubmit={handleSubmit} className="meme-form">
         <input 
           type="text"
@@ -48,7 +48,9 @@ function MemesNew () {
         />
         <button type="submit">Gen</button>
       </form>
-      <MemeDisplay data={{topText: text.topText, bottomText: text.bottomText, url: randomImg}} />
+      <div className="big-meme">
+        <MemeDisplay data={{topText: text.topText, bottomText: text.bottomText, url: randomImg}} />
+      </div>
     </div>
     
   )

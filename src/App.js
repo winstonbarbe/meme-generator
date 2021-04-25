@@ -15,7 +15,7 @@ function App() {
       <Router>
         <div>
           <nav>
-            <ul style={{listStyleType: "none", display: "flex", justifyContent: "space-around"}}>
+            <ul style={{listStyleType: "none", display: "flex", justifyContent: }}>
               <li>
                 <Link to="/">Home</Link>
               </li>

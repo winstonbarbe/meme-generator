@@ -1,8 +1,14 @@
 import React, { useState, useEffect } from "react"
+import {
+  Link
+} from "react-router-dom";
 import MemeDisplay from "./MemeDisplay"
 
 function MemesIndex() {
   const [savedMemes, setSavedMemes] = useState([])
+  function handleClick (e) {
+
+  }
 
   useEffect(() => {
     fetch("/memes.json")
@@ -17,7 +23,14 @@ function MemesIndex() {
   }, [])
   return (
     <div className="memes-index">
-      {savedMemes}
+      {savedMemes.map(savedMeme => {
+        return (
+          <div className="big-meme" onClick={handleClick}>
+            {savedMeme}
+            <span>Creator: <Link to="/memes-index">Hello</Link></span>
+          </div>
+        )
+      })}
 
     </div>
   )
