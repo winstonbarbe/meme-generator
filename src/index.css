@@ -133,3 +133,7 @@ header > p {
   box-shadow: 0px 0px 20px #00000040;
   border-radius: 2%;
 }
+
+.header-nav > li a:visited {
+  background-color: white;
+}
